@@ -180,36 +180,16 @@ footer p {
   margin: 0;
   font-size: 14px;
 }
-
 /* Responsive styles */
-@media (max-width: 768px) {
-  header h1 {
-    font-size: 30px;
-  }
-  header nav ul {
-    display: block;
-    text-align: center;
-  }
-
+@media (max-width: 600px) {
   header nav ul li {
     display: block;
     margin-right: 0;
-    margin-bottom: 10px;
   }
-
-  .hero-image {
-    height: 300px;
+  .featured-items {
+    padding: 20px;
   }
-
-  .hero-image h2 {
-    font-size: 30px;
-  }
-
   .item {
-    flex-basis: calc(50% - 20px);
-  }
-
-  .item:nth-child(3) {
-    display: none;
+    flex: 1 1 100%;
   }
 }
